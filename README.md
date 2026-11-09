@@ -1,121 +1,168 @@
-# 🏋️ MM Fitness Tracker (PulseFit)
+<div align="center">
 
-An advanced, modern, AI-powered Android fitness and activity tracking application built with **Jetpack Compose**, **Material 3**, and **Google Gemini AI**.
+  <h1>🔥 MM Fitness Tracker (PulseFit)</h1>
+  <p><b>Next-Gen AI-Powered Fitness, Workout & Step Tracker Android App</b></p>
 
-[![Android Studio](https://img.shields.io/badge/Android%20Studio-2024.1+-brightgreen.svg)](https://developer.android.com/studio)
-[![Kotlin](https://img.shields.io/badge/Kotlin-2.0.21-blue.svg)](https://kotlinlang.org)
-[![Compose](https://img.shields.io/badge/Jetpack%20Compose-1.7+-purple.svg)](https://developer.android.com/jetpack/compose)
-[![APK Download](https://img.shields.io/badge/Download-APK%20v1.0-orange.svg)](./apk/mm-fitness-v1.0.apk)
+  <p>
+    <a href="https://kotlinlang.org"><img src="https://img.shields.io/badge/Kotlin-2.0.21-7F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin"/></a>
+    <a href="https://developer.android.com/jetpack/compose"><img src="https://img.shields.io/badge/Jetpack%20Compose-1.7+-4285F4.svg?style=for-the-badge&logo=jetpackcompose&logoColor=white" alt="Compose"/></a>
+    <a href="https://m3.material.io"><img src="https://img.shields.io/badge/Material%203-000000?style=for-the-badge&logo=materialdesign&logoColor=white" alt="Material 3"/></a>
+    <a href="https://deepmind.google/technologies/gemini/"><img src="https://img.shields.io/badge/Gemini%20AI-8E75FF?style=for-the-badge&logo=google&logoColor=white" alt="Gemini AI"/></a>
+    <a href="./apk/mm-fitness-v1.0.apk"><img src="https://img.shields.io/badge/Download%20APK-v1.0-FF6F00?style=for-the-badge&logo=android&logoColor=white" alt="Download APK"/></a>
+  </p>
+
+  <br/>
+  
+  <a href="./apk/mm-fitness-v1.0.apk">
+    <img src="https://img.shields.io/badge/⚡_DOWNLOAD_APK_V1.0-DIRECT_INSTALL-brightgreen?style=for-the-badge&logo=android&logoColor=white" width="340" height="45" alt="Download APK Button"/>
+  </a>
+
+</div>
 
 ---
 
-## 📲 Direct APK Download
+## ⚡ Direct APK Download
 
-Download and install the ready-to-run Android APK directly on your phone:
-- 📥 **[Download MM Fitness APK (v1.0)](./apk/mm-fitness-v1.0.apk)**
+Ready to test on your phone? Download the compiled APK file directly:
+
+| 📱 Version | 💾 File Size | 🔗 Download Link |
+| :--- | :--- | :--- |
+| **v1.0-Debug** | ~10.7 MB | 📥 **[Download MM Fitness v1.0 APK](./apk/mm-fitness-v1.0.apk)** |
 
 ---
 
-## 📱 App Screenshots
+## 📱 App Screenshots & UI Showcase
 
 <div align="center">
   <table>
     <tr>
-      <td align="center"><b>Home Dashboard</b></td>
-      <td align="center"><b>Workout Routines</b></td>
-      <td align="center"><b>Live Activity & Pedometer</b></td>
+      <td align="center"><b>🏠 Home Dashboard</b></td>
+      <td align="center"><b>💪 Workout Routines</b></td>
+      <td align="center"><b>🏃 Live Pedometer</b></td>
     </tr>
     <tr>
-      <td><img src="./screenshots/home_screen.png" width="250"/></td>
-      <td><img src="./screenshots/workouts_screen.png" width="250"/></td>
-      <td><img src="./screenshots/activity_screen.png" width="250"/></td>
+      <td><img src="./screenshots/home_screen.png" width="240" style="border-radius: 12px;"/></td>
+      <td><img src="./screenshots/workouts_screen.png" width="240" style="border-radius: 12px;"/></td>
+      <td><img src="./screenshots/activity_screen.png" width="240" style="border-radius: 12px;"/></td>
     </tr>
     <tr>
-      <td align="center"><b>Analytics & Reports</b></td>
-      <td align="center"><b>Settings & Preferences</b></td>
-      <td align="center"><b>AI Recommendations</b></td>
+      <td align="center"><b>📊 Reports & Calendar</b></td>
+      <td align="center"><b>⚙️ Settings & Goals</b></td>
+      <td align="center"><b>🤖 AI Coach</b></td>
     </tr>
     <tr>
-      <td><img src="./screenshots/reports_screen.png" width="250"/></td>
-      <td><img src="./screenshots/settings_screen.png" width="250"/></td>
-      <td><img src="./screenshots/home_screen.png" width="250"/></td>
+      <td><img src="./screenshots/reports_screen.png" width="240" style="border-radius: 12px;"/></td>
+      <td><img src="./screenshots/settings_screen.png" width="240" style="border-radius: 12px;"/></td>
+      <td><img src="./screenshots/home_screen.png" width="240" style="border-radius: 12px;"/></td>
     </tr>
   </table>
 </div>
 
 ---
 
-## ✨ Features
+## ✨ Key Features
 
-- 🏃 **Real-time Pedometer & Step Tracker:** Physical accelerometer motion filtering with live step counter, stride distance, estimated calorie burn, and active time metrics.
-- 💪 **Workout Routines & Plans:** Specialized muscle group targeting (Chest, Back, Legs, Arms, Cardio) with difficulty filters (Beginner, Intermediate, Advanced).
-- 🤖 **AI-Powered Fitness Coaching:** Integrated Google Gemini AI (`firebase-ai`) for personalized workout insights, recovery tips, and goal suggestions.
-- 📊 **Comprehensive Reports:** Monthly workout consistency calendars, daily activity charts, progress tracking, and goal achievement percentages.
-- ⚙️ **Customizable Settings:** Daily step goal adjustments, user profile management, dark modern UI theme, and unit preference configuration.
+### 🏃 Real-Time Accelerometer Pedometer
+* **Sensor Motion Filter:** Tracks physical steps using device accelerometer hardware.
+* **Metric Engine:** Instant calculations for total distance in Kilometers, Estimated Calories Burned, and Active Exercise Duration.
+* **Quick Add Simulation:** Test and simulate step progress directly (+250, +500, +1000 steps).
 
----
+### 💪 Interactive Workout Routines
+* **Targeted Muscle Groups:** Custom routines for Chest, Back, Legs, Arms, and Cardio.
+* **Difficulty Categorization:** Filter workouts by Beginner, Intermediate, and Advanced skill levels.
+* **Guided Motion Visualizer:** Live interactive timer, rep counter, animated exercise form guide, and burn estimate.
 
-## 🛠️ Tech Stack & Architecture
+### 🤖 Google Gemini AI Coaching
+* **Personalized Recommendations:** Smart AI insights generated based on user activity logs.
+* **Recovery & Hydration Advice:** Dynamic fitness guidance powered by Google Gemini (`firebase-ai`).
 
-- **UI Framework:** [Jetpack Compose](https://developer.android.com/jetpack/compose) with Material 3 Design
-- **Language:** Kotlin 100%
-- **Architecture:** Clean Architecture + MVVM + Unidirectional Data Flow (UDF)
-- **Async Programming:** Kotlin Coroutines & Flow
-- **Local Storage:** Room Database & DataStore Preferences
-- **Networking:** Retrofit2 & Moshi Codegen
-- **AI Integration:** Firebase AI / Google Gemini API
-- **Build System:** Gradle Kotlin DSL (`build.gradle.kts`) with Version Catalog (`libs.versions.toml`)
+### 📊 Consistency & Monthly Reports
+* **Interactive Calendar View:** Monthly workout tracking with active day counters and completed session history.
+* **Weekly Bar Charts:** Visual breakdown of daily step achievements vs target step goals.
 
----
-
-## 🚀 Getting Started (Build from Source)
-
-### Prerequisites
-- [Android Studio Ladybug (2024.2.1+) or newer](https://developer.android.com/studio)
-- JDK 11 or JDK 17
-- Android SDK 35/36
-
-### Setup Steps
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/omsoni21/fitnesstracker.git
-   cd fitnesstracker
-   ```
-
-2. **Open in Android Studio:**
-   - Launch Android Studio and click **Open**.
-   - Select the `fitnesstracker` directory.
-
-3. **Configure Environment Variables:**
-   - Copy `.env.example` to `.env`:
-     ```bash
-     cp .env.example .env
-     ```
-   - Add your Gemini API key to `.env` if using AI coaching features:
-     ```env
-     GEMINI_API_KEY=your_api_key_here
-     ```
-
-4. **Run the Project:**
-   - Select your emulator or physical Android device.
-   - Click the **Run** button (▶️) or press `Shift + F10`.
+### ⚙️ Customizable Experience
+* **Custom Step Goal:** Adjust daily step targets (e.g. 10,000 steps).
+* **Modern Dark UI:** Premium dark theme crafted with Jetpack Compose & Material 3 design tokens.
 
 ---
 
-## 📦 Generating APK
+## 🛠️ Architecture & Tech Stack
 
-To generate a debug APK locally via terminal:
-```bash
-./gradlew :app:assembleDebug
+The app follows **Android Official Architecture Guidelines** (Clean Architecture + MVVM + Unidirectional Data Flow):
+
+```text
+ ┌─────────────────────────────────────────────────────────┐
+ │                   UI Layer (Jetpack Compose)            │
+ │     HomeScreen  │  WorkoutsScreen  │  ActivityScreen    │
+ └────────────────────────────┬────────────────────────────┘
+                              │ Exposes UI State (StateFlow)
+ ┌────────────────────────────▼────────────────────────────┐
+ │                  ViewModel Layer (MVVM)                 │
+ │     HomeViewModel │ WorkoutsViewModel │ ActivityVM      │
+ └────────────────────────────┬────────────────────────────┘
+                              │ Calls Use Cases / Repositories
+ ┌────────────────────────────▼────────────────────────────┐
+ │                      Data Layer                         │
+ │   FitnessRepository │ UserPreferences │ Room Database   │
+ └─────────────────────────────────────────────────────────┘
 ```
-The generated APK will be placed at:
-`app/build/outputs/apk/debug/app-debug.apk`
+
+| Domain | Technology / Library |
+| :--- | :--- |
+| **Language** | Kotlin 100% |
+| **UI Framework** | Jetpack Compose + Material 3 Design |
+| **Concurrency** | Kotlin Coroutines & Flow |
+| **Database** | Room Database (KSP) |
+| **Preferences** | Jetpack DataStore Preferences |
+| **AI Services** | Google Gemini API (`firebase-ai`) |
+| **Networking** | Retrofit 2 + Moshi Codegen |
+| **Build Tooling** | Gradle Kotlin DSL (`build.gradle.kts`) & Version Catalog |
 
 ---
 
-## 🔗 Repository
+## 🚀 Quick Setup & Installation
 
-- **GitHub Repository:** [https://github.com/omsoni21/fitnesstracker.git](https://github.com/omsoni21/fitnesstracker.git)
+### Option 1: Direct APK Install (Fastest)
+1. Download [`mm-fitness-v1.0.apk`](./apk/mm-fitness-v1.0.apk) on your Android device.
+2. Tap the downloaded file to install (allow "Install from unknown sources" if prompted).
+3. Open **PulseFit MM Fitness** and enjoy!
+
+### Option 2: Build From Source
+
+#### Prerequisites
+* **Android Studio:** Ladybug (2024.2.1+) or newer
+* **JDK:** Java 11 or Java 17
+* **Android SDK:** Target API Level 35/36
+
+#### Setup Commands
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/omsoni21/fitnesstracker.git
+cd fitnesstracker
+
+# 2. Configure Environment Variables
+cp .env.example .env
+# Optional: Add your GEMINI_API_KEY inside .env for AI features
+```
+
+#### Build & Run Commands
+
+| Task | Terminal Command | Output Path |
+| :--- | :--- | :--- |
+| **Assemble Debug APK** | `./gradlew :app:assembleDebug` | `app/build/outputs/apk/debug/app-debug.apk` |
+| **Assemble Release APK** | `./gradlew :app:assembleRelease` | `app/build/outputs/apk/release/app-release.apk` |
+| **Run Unit Tests** | `./gradlew :app:test` | `app/build/reports/tests/` |
 
 ---
-Developed with ❤️ by Om Soni
+
+## 🔗 Repository & Credits
+
+* **GitHub Repository:** [https://github.com/omsoni21/fitnesstracker.git](https://github.com/omsoni21/fitnesstracker.git)
+* **Developer:** Developed with ❤️ by **Om Soni**
+
+---
+
+<div align="center">
+  <p>⭐ If you like this project, please consider giving it a star on GitHub! ⭐</p>
+</div>
