@@ -8,12 +8,12 @@
     <a href="https://developer.android.com/jetpack/compose"><img src="https://img.shields.io/badge/Jetpack%20Compose-1.7+-4285F4.svg?style=for-the-badge&logo=jetpackcompose&logoColor=white" alt="Compose"/></a>
     <a href="https://m3.material.io"><img src="https://img.shields.io/badge/Material%203-000000?style=for-the-badge&logo=materialdesign&logoColor=white" alt="Material 3"/></a>
     <a href="https://deepmind.google/technologies/gemini/"><img src="https://img.shields.io/badge/Gemini%20AI-8E75FF?style=for-the-badge&logo=google&logoColor=white" alt="Gemini AI"/></a>
-    <a href="./apk/mm-fitness-v1.0.apk"><img src="https://img.shields.io/badge/Download%20APK-v1.0-FF6F00?style=for-the-badge&logo=android&logoColor=white" alt="Download APK"/></a>
+    <a href="https://github.com/omsoni21/fitnesstracker/raw/main/apk/mm-fitness-v1.0.apk"><img src="https://img.shields.io/badge/Download%20APK-v1.0-FF6F00?style=for-the-badge&logo=android&logoColor=white" alt="Download APK"/></a>
   </p>
 
   <br/>
   
-  <a href="./apk/mm-fitness-v1.0.apk">
+  <a href="https://github.com/omsoni21/fitnesstracker/raw/main/apk/mm-fitness-v1.0.apk">
     <img src="https://img.shields.io/badge/⚡_DOWNLOAD_APK_V1.0-DIRECT_INSTALL-brightgreen?style=for-the-badge&logo=android&logoColor=white" width="340" height="45" alt="Download APK Button"/>
   </a>
 
@@ -27,7 +27,7 @@ Ready to test on your phone? Download the compiled APK file directly:
 
 | 📱 Version | 💾 File Size | 🔗 Download Link |
 | :--- | :--- | :--- |
-| **v1.0-Debug** | ~10.7 MB | 📥 **[Download MM Fitness v1.0 APK](./apk/mm-fitness-v1.0.apk)** |
+| **v1.0-Debug** | ~10.7 MB | 📥 **[Download MM Fitness v1.0 APK](https://github.com/omsoni21/fitnesstracker/raw/main/apk/mm-fitness-v1.0.apk)** |
 
 ---
 
@@ -123,7 +123,7 @@ The app follows **Android Official Architecture Guidelines** (Clean Architecture
 ## 🚀 Quick Setup & Installation
 
 ### Option 1: Direct APK Install (Fastest)
-1. Download [`mm-fitness-v1.0.apk`](./apk/mm-fitness-v1.0.apk) on your Android device.
+1. Download [`mm-fitness-v1.0.apk`](https://github.com/omsoni21/fitnesstracker/raw/main/apk/mm-fitness-v1.0.apk) on your Android device.
 2. Tap the downloaded file to install (allow "Install from unknown sources" if prompted).
 3. Open **PulseFit MM Fitness** and enjoy!
 
