@@ -7,6 +7,7 @@
 This project contains everything you need to run the **Fitness Tracker** (MM Fitness) app locally.
 
 - **GitHub Repository**: [https://github.com/omsoni21/fitnesstracker](https://github.com/omsoni21/fitnesstracker)
+- **Download APK**: [https://github.com/omsoni21/fitnesstracker/raw/main/apk/app-debug.apk](https://github.com/omsoni21/fitnesstracker/raw/main/apk/app-debug.apk)
 - **View your app in AI Studio**: [https://ai.studio/apps/5ef7b5e7-5d5d-4b5d-9148-d0d1da2bf209](https://ai.studio/apps/5ef7b5e7-5d5d-4b5d-9148-d0d1da2bf209)
 
 ## Run Locally
