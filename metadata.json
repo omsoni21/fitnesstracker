@@ -1,0 +1,6 @@
+{
+  "name": "MM Fitness",
+  "description": "MM Fitness: Premium native fitness and workout tracking app with real step counting, real-time heart rate monitoring, animated exercises, water tracking, and weekly analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
