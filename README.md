@@ -27,7 +27,8 @@ Ready to test on your phone? Download the compiled APK file directly:
 
 | 📱 Version | 💾 File Size | 🔗 Download Link |
 | :--- | :--- | :--- |
-| **v1.0-Debug** | ~27.3 MB | 📥 **[Download MM Fitness v1.0 APK](https://github.com/omsoni21/fitnesstracker/raw/main/apk/mm-fitness-v1.0.apk)** |
+| **v1.0 (Direct APK)** | ~27.4 MB | 📥 **[Download mm-fitness-v1.0.apk](https://github.com/omsoni21/fitnesstracker/raw/main/apk/mm-fitness-v1.0.apk)** |
+| **Debug Build APK** | ~27.4 MB | 📥 **[Download app-debug.apk](https://github.com/omsoni21/fitnesstracker/raw/main/apk/app-debug.apk)** |
 
 ---
 
